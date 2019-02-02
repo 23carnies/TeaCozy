@@ -1,0 +1,58 @@
+/* Overall */
+* {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header */
+header {
+  width: 100%;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+logo {
+  flex-grow: 1;
+  position: absolute;
+  left: 10px;
+}
+
+nav {
+  text-decoration: underline;
+  position: absolute;
+  right: 10px;
+}
+
+a:link {
+  color: seashell;
+  padding: 15px;
+}
+
+/* Mission */
+.mission {
+
+}
+
+/* Tea of the Month */
+.month {
+
+  }
+
+/* Locations */
+.locations {
+
+}
+
+/* Footer */
+footer {
+  
+}

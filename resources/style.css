@@ -12,6 +12,10 @@ header, .mission_text, .city {
   background-color: black;
 }
 
+#mission, #featured, #locations {
+  margin: 0 auto;
+}
+
 /* Header */
 header {
   width: 100%;
@@ -33,13 +37,13 @@ logo {
 }
 
 nav {
-  text-decoration: underline;
   position: absolute;
   right: 10px;
 }
 
 a, a:visited, a:hover, a:active, a:link {
   color: seashell;
+  text-decoration: underline;
   padding: 15px;
 }
 
@@ -62,40 +66,51 @@ a, a:visited, a:hover, a:active, a:link {
 }
 
 /* Tea of the Month */
+
 #featured {
-  margin-top: 150px;
-}
-.month {
-  display: flex;
+  max-width: 1000px;
+  margin: 75px auto;
+  display: inline-flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  max-width: 1000px;
+  
   max-height: 500px;
-  margin: 50px;
+}
+
+#month, #loc {
+  flex-grow=2;
 }
 
 .text {
   padding: 10px 0;
 }
 
+.tea {
+  margin: 0 auto;
+}
+
 /* Locations */
 #locations {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
-  align-content: space-around;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   background-image: url("images/img-locations-background.jpg");
-  height: 500px;
+  min-height: 500px;
   max-width: 1200px;
 }
 
+.loc {
+  padding-bottom: 15px;
+}
+
 .city {
-  vertical-align: center;
+  display: inline-flex;
+  justify-content: center;
+  flex-flow: column wrap;
   opacity: 1;
   margin: 0 auto;
   width: 300px;
-  height: 300px;
 }
 
 /* Footer */

@@ -69,16 +69,16 @@ a, a:visited, a:hover, a:active, a:link {
 
 #featured {
   max-width: 1000px;
-  margin: 75px auto;
+  margin: 0 auto;
   display: inline-flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  
+
   max-height: 500px;
 }
 
-#month, #loc {
-  flex-grow=2;
+#month {
+  margin-top: 150px;
 }
 
 .text {
@@ -91,17 +91,14 @@ a, a:visited, a:hover, a:active, a:link {
 
 /* Locations */
 #locations {
-  display: inline-flex;
-  justify-content: center;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  flex-flow: row wrap;
   background-image: url("images/img-locations-background.jpg");
   min-height: 500px;
   max-width: 1200px;
 }
 
-.loc {
-  padding-bottom: 15px;
 }
 
 .city {
@@ -111,6 +108,7 @@ a, a:visited, a:hover, a:active, a:link {
   opacity: 1;
   margin: 0 auto;
   width: 300px;
+  padding: 10px;
 }
 
 /* Footer */

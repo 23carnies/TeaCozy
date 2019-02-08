@@ -70,10 +70,12 @@ a, a:visited, a:hover, a:active, a:link {
 #featured {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+#tea_box {
   display: inline-flex;
   flex-flow: row wrap;
   justify-content: space-between;
-
   max-height: 500px;
 }
 
@@ -85,20 +87,22 @@ a, a:visited, a:hover, a:active, a:link {
   padding: 10px 0;
 }
 
-.tea {
-  margin: 0 auto;
-}
-
 /* Locations */
 #locations {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   background-image: url("images/img-locations-background.jpg");
-  min-height: 500px;
-  max-width: 1200px;
+  height: 500px;
+  width: 1200px;
 }
 
+#location_title {
+  padding-top: 75px;
+  padding-bottom: 15px;
+}
+
+#loc {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .city {
@@ -106,9 +110,8 @@ a, a:visited, a:hover, a:active, a:link {
   justify-content: center;
   flex-flow: column wrap;
   opacity: 1;
-  margin: 0 auto;
+  margin: 0 20px;
   width: 300px;
-  padding: 10px;
 }
 
 /* Footer */

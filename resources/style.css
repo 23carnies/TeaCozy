@@ -68,23 +68,23 @@ a, a:visited, a:hover, a:active, a:link {
 /* Tea of the Month */
 
 #featured {
+  display: block;
   max-width: 1000px;
-  margin: 0 auto;
-}
-
-#tea_box {
-  display: inline-flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  max-height: 500px;
-}
-
-#month {
   margin-top: 150px;
+  margin-bottom: 75px;
 }
 
-.text {
-  padding: 10px 0;
+.tea_box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.tea_box img {
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
 }
 
 /* Locations */
@@ -99,7 +99,7 @@ a, a:visited, a:hover, a:active, a:link {
   padding-bottom: 15px;
 }
 
-#loc {
+#location_box {
   display: flex;
   justify-content: space-between;
   align-content: center;
